@@ -29,6 +29,12 @@ do{
 =============================================================
 """
     print(message)
+    
+    let modelFileURL = URL(fileURLWithPath: "/Users/fusemachines/Documents/iOS/Practice/Github Projects/Sentiment Analysis/ReviewClassifier.mlmodel")
+    
+    let metadata = MLModelMetadata(author: "Kushal Rajbhandari", shortDescription: "A model ttrained to classify product review sentiment", version: "0.1")
+    
+    try sentimentClassifier.write(to: modelFileURL, metadata: metadata)
 }catch{
     print(error.localizedDescription)
 }
