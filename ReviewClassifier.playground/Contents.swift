@@ -15,9 +15,12 @@ do{
 =============================================================
 """
     print(stats)
+    
     let sentimentClassifier = try MLTextClassifier(trainingData: trainingDataTable, textColumn: "text", labelColumn: "label")
+    
     let trainingAccuracy = (1.0 - sentimentClassifier.trainingMetrics.classificationError) * 100
     let validationAccuracy = (1.0 - sentimentClassifier.validationMetrics.classificationError) * 100
+   
     
     let message = """
 =============================================================
