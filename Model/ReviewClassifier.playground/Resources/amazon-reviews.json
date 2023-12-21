@@ -5,7 +5,7 @@
   },
   {
     "text": "Good case",
-    "label": "Excellent value."
+    "label": "positive"
   },
   {
     "text": "Great for the jawbone.",
@@ -161,7 +161,7 @@
   },
   {
     "text": "It has a great camera thats 2MP",
-    "label": "and the pics are nice and clear with great picture quality."
+    "label": "positive"
   },
   {
     "text": "I was not impressed by this product.",
@@ -245,7 +245,7 @@
   },
   {
     "text": "I really recommend this faceplates since it looks very nice",
-    "label": "elegant and cool."
+    "label": "positive"
   },
   {
     "text": "These headphones were a great find - and I think they are perhaps the best purchase I've made in the last several years - seriously.",
@@ -989,7 +989,7 @@
   },
   {
     "text": "It's fits like a glove and is strong",
-    "label": "secure"
+    "label": "positive"
   },
   {
     "text": "O my gosh the best phone I have ever had.",
@@ -1557,7 +1557,7 @@
   },
   {
     "text": "Using all earpieces",
-    "label": "left or right"
+    "label": "neutral"
   },
   {
     "text": "Great product and price.",
@@ -3713,7 +3713,7 @@
   },
   {
     "text": "Otherwise",
-    "label": "easy to install and use"
+    "label": "neutral"
   },
   {
     "text": "nice leather.",
