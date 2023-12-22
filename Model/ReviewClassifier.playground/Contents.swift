@@ -1,6 +1,7 @@
 import CreateML
 import Cocoa
 
+///This is an older complex way of generating mlmodels. You can also generate mlmodel using CreateML from within Developer Tools
 guard let trainingDataFileURL = Bundle.main.url(forResource: "amazon-reviews", withExtension: "json"),
       let testingDataFileURL = Bundle.main.url(forResource: "testing-reviews", withExtension: "json")else {
           fatalError("Error! Could not load resource files")
